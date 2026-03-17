@@ -1,0 +1,28 @@
+## Interface: 20504
+## Interface-BCC: 20504
+## Title: |cFF5EBAF3Questie|r|cFFDAFAFD-X|r |cFF00FF00TBC Database|r
+## Notes: Quest, NPC, Object and Item database for The Burning Crusade 2.5.x
+## Author: Questie Team
+## Version: 1.1.6
+## Dependencies: Questie-X
+## X-DB-Flavor: TBCDB
+
+# Raw data tables
+Database\TBC\tbcQuestDB.lua
+Database\TBC\tbcNpcDB.lua
+Database\TBC\tbcObjectDB.lua
+Database\TBC\tbcItemDB.lua
+
+# XP data
+Database\QuestXP\xpDB-tbc.lua
+
+# Expansion corrections
+Database\Corrections\tbcQuestFixes.lua
+Database\Corrections\tbcNPCFixes.lua
+Database\Corrections\tbcItemFixes.lua
+Database\Corrections\tbcObjectFixes.lua
+Database\Corrections\Automatic\classicQuestReputationFixes.lua
+Database\Corrections\Automatic\itemStartFixes.lua
+
+# Plugin loader (must be last)
+Loader.lua
